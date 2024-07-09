@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import trip1 from './assets/trip1.jpg'
 import trip3 from './assets/trip3.png'
 import trip4 from './assets/trip4.png'
-import img1 from './assets/1.png'
+import img1 from './assets/1.jpg'
 import img2 from './assets/2.jpg'
 import img3 from './assets/3.jpg'
 import img4 from './assets/4.jpg'
@@ -94,7 +94,7 @@ function App() {
             {/* Home Section */}
             <section className="home" id="home">
                 <div className="home-text">
-                    <h1> Company <br /> Travel & Tours </h1>
+                    <h1> Ratan <br /> Travel & Tours </h1>
                     <p id='para'>“The world is a book and those who do not travel <br /> read only one page.”</p>
                     <a href="" className="home-btn">Let's go now</a>
                 </div>
@@ -140,12 +140,13 @@ function App() {
                     {/* box */}
                     <div className="box">
                         <div className="thum">
-                            <img src={img6} alt="" />
+                            <img src={img1} alt="" />
                         </div>
                         
                         <div className="dest-content">
                             <div className="location">
                                 <h4>Rajastan</h4>
+                                <p>4h - 5h</p>
                                 
                             </div>
                             <div className="stars">
@@ -183,7 +184,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>delhi</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
@@ -202,7 +203,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>mumbai</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
@@ -221,7 +222,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>bbsr</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
@@ -240,7 +241,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>pune</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
@@ -259,7 +260,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>bangalore</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
@@ -278,7 +279,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>coorg</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
@@ -297,7 +298,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>goa</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
@@ -316,7 +317,7 @@ function App() {
                         </div>
                         <div className="dest-content">
                             <div className="location">
-                                <h4>Place</h4>
+                                <h4>nagpur</h4>
                                 <p>4h - 5h</p>
                             </div>
                             <div className="stars">
